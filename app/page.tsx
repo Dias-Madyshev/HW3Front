@@ -38,10 +38,10 @@ const Home: React.FC = () => {
 
   return (
     <div>
-      <NavBar />
+      <NavBar  />
       <Tabs />
 
-      {!data ? <div>Loading...</div> : <ArticleList articles={data} />}
+      {!data ? <div>Loading...</div> : <ArticleList articles={data}  />}
     </div>
   );
 };
